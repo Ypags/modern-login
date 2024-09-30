@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 14px;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: #EAEAEA;
+    width: 300px;
+    height: 39px;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(40deg, rgba(255,255,255,1) 0%, rgba(190,202,246,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 800px;
+    height: 490px;
+    background-color: #fff;
+    box-shadow: 0 0 22px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 59px;
+}
+
+.sign-in,
+.sign-up {
+    transition: all 0.3s ease;
+    display: flex;
+}
+
+.active,
+.active form
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.active h1 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.active .social-network img{
+    border: 1px solid #CDCDCD;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-inline: 4px;
+    transition: all 0.1s ease;
+}
+
+.active .social-network img:hover{
+    scale: 1.07;
+}
+
+.active .social-network .facebook {
+    padding-inline: 10px ;
+}
+
+.active .social-network .linkedin {
+    padding-inline: 8px ;
+}
+
+.active h3 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.sign-in .active span {
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+
+.active button {
+    cursor: pointer;
+    width: 152px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #4f3fae;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.active button:hover{
+    background-color: #372b7c;
+}
+
+
+
+
+.purple {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 490px;
+    width: 50%;
+    border-radius: 150px 59px 59px 100px;
+    background: linear-gradient(90deg, #6857d4 0%, #483d8b 100%);
+    color: #fff;
+}
+
+.sign-up .purple {
+    border-radius: 59px 150px 100px 59px;
+}
+
+.purple h2{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.purple p{
+    text-align: center;
+    width: 365px;
+    margin-bottom: 60px;
+}
+
+.purple button{
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 152px;
+    height: 35px;
+    transition: all 0.4s ease;
+}
+
+.purple button:hover{
+    scale: 1.07;
+}
+
+.hide {
+    display: none;
+}
