@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Modern login</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./login.ico">
+</head>
+<body>
+    <div class="wrapper">
+        <span class="header">
+            <a href="./anim1.html">1-я анимация</a>
+            <span>/</span>
+            <a href="./anim2.html">2-я анимация</a>
+        </span>
+        <section>
+            <div class="sign-in sign-in-anim2">
+                <div class="active sign-in-active">
+                    <h1>Войти</h1>
+                    <div class="social-network">
+                        <img src="./ico/facebook.png" class="facebook" alt="">
+                        <img src="./ico/google.png" alt="">
+                        <img src="./ico/linkedin.png"class="linkedin" alt="">
+                        <img src="./ico/github.png" alt="">
+                    </div>
+                    <h3>или используйте логин и пароль</h3>
+                    <form>
+                        <input type="email" placeholder="Почта" required>
+                        <input type="text" placeholder="Пароль" required>
+                        <span>Забыли свой пароль?</span>
+                        <button>Войти</button>
+                    </form>
+                </div>
+                <div class="background-purple purple purple-sign-in">
+                        <h2>Добро пожаловать!</h2>
+                        <p>Зарегистрируйтесь, используя свои личные данные, чтобы использовать все функции сайта</p>
+                        <button class="reg">Регистрация</button>
+                </div>
+            </div>
+
+            <div class="sign-up sign-up-anim2 sign-up-anim hide-scale">
+                <div class="background-purple purple purple-sign-up">
+                        <h2>C возвращением!</h2>
+                        <p>Введите свои личные данные, чтобы использовать все функции сайта</p>
+                        <button class="log-in">Войти</button>
+                </div>
+                <div class="active sign-up-active">
+                    <h1>Создать аккаунт</h1>
+                    <div class="social-network">
+                        <img src="./ico/facebook.png" class="facebook" alt="">
+                        <img src="./ico/google.png" alt="">
+                        <img src="./ico/linkedin.png"class="linkedin" alt="">
+                        <img src="./ico/github.png" alt="">
+                    </div>
+                    <h3>или используйте почту для регистрации</h3>
+                    <form>
+                        <input type="text" placeholder="Имя" required>
+                        <input type="email" placeholder="Почта" required>
+                        <input type="text" placeholder="Пароль" required>
+                        <button>Создать</button>
+                    </form>
+                </div>
+            </div>
+
+            </div>
+        </section>
+    </div>
+</body>
+
+<script src="./script-anim2.js"></script>
+</html>
